@@ -1,0 +1,728 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#"
+     xml:base="http://www.semanticweb.org/manyx/ontologies/2017/7/organizm"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/manyx/ontologies/2017/7/organizm"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#action -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#action"/>
+    
+
+
+    <!-- http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#argument -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#argument"/>
+    
+
+
+    <!-- http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#article -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#article"/>
+    
+
+
+    <!-- http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#belief -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#belief"/>
+    
+
+
+    <!-- http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#branch -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#branch"/>
+    
+
+
+    <!-- http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#bundle -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#bundle"/>
+    
+
+
+    <!-- http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#capability -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#capability"/>
+    
+
+
+    <!-- http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#category -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#category"/>
+    
+
+
+    <!-- http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#cell -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#cell"/>
+    
+
+
+    <!-- http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#class -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#class"/>
+    
+
+
+    <!-- http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#comment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#comment"/>
+    
+
+
+    <!-- http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#commit -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#commit"/>
+    
+
+
+    <!-- http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#community -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#community"/>
+    
+
+
+    <!-- http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#concept -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#concept"/>
+    
+
+
+    <!-- http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#constitution -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#constitution"/>
+    
+
+
+    <!-- http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#corporation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#corporation"/>
+    
+
+
+    <!-- http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#cost -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#cost"/>
+    
+
+
+    <!-- http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#criticality -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#criticality"/>
+    
+
+
+    <!-- http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#decision -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#decision"/>
+    
+
+
+    <!-- http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#department -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#department"/>
+    
+
+
+    <!-- http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#desirability -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#desirability"/>
+    
+
+
+    <!-- http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#discussion -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#discussion"/>
+    
+
+
+    <!-- http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#dispute -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#dispute"/>
+    
+
+
+    <!-- http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#distance -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#distance"/>
+    
+
+
+    <!-- http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#domain -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#domain"/>
+    
+
+
+    <!-- http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#downvote -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#downvote"/>
+    
+
+
+    <!-- http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#emotion -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#emotion"/>
+    
+
+
+    <!-- http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#entity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#entity"/>
+    
+
+
+    <!-- http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#entry -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#entry"/>
+    
+
+
+    <!-- http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#ethos -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#ethos"/>
+    
+
+
+    <!-- http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#etiquette -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#etiquette"/>
+    
+
+
+    <!-- http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#executive -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#executive"/>
+    
+
+
+    <!-- http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#experience -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#experience"/>
+    
+
+
+    <!-- http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#feed -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#feed"/>
+    
+
+
+    <!-- http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#feeling -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#feeling"/>
+    
+
+
+    <!-- http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#filter -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#filter"/>
+    
+
+
+    <!-- http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#framed_issue -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#framed_issue"/>
+    
+
+
+    <!-- http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#fruit -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#fruit"/>
+    
+
+
+    <!-- http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#function -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#function"/>
+    
+
+
+    <!-- http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#ganglion -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#ganglion"/>
+    
+
+
+    <!-- http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#gravity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#gravity"/>
+    
+
+
+    <!-- http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#group -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#group"/>
+    
+
+
+    <!-- http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#hashtag -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#hashtag"/>
+    
+
+
+    <!-- http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#idea -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#idea"/>
+    
+
+
+    <!-- http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#impact -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#impact"/>
+    
+
+
+    <!-- http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#individual -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#individual"/>
+    
+
+
+    <!-- http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#institution -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#institution"/>
+    
+
+
+    <!-- http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#invitation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#invitation"/>
+    
+
+
+    <!-- http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#issue -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#issue"/>
+    
+
+
+    <!-- http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#judicial -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#judicial"/>
+    
+
+
+    <!-- http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#knowledge -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#knowledge"/>
+    
+
+
+    <!-- http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#law -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#law"/>
+    
+
+
+    <!-- http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#leaf -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#leaf"/>
+    
+
+
+    <!-- http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#legislative -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#legislative"/>
+    
+
+
+    <!-- http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#logos -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#logos"/>
+    
+
+
+    <!-- http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#loss -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#loss"/>
+    
+
+
+    <!-- http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#love -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#love"/>
+    
+
+
+    <!-- http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#medium -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#medium"/>
+    
+
+
+    <!-- http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#member -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#member"/>
+    
+
+
+    <!-- http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#message -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#message"/>
+    
+
+
+    <!-- http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#method -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#method"/>
+    
+
+
+    <!-- http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#nation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#nation"/>
+    
+
+
+    <!-- http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#neuron -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#neuron"/>
+    
+
+
+    <!-- http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#news -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#news"/>
+    
+
+
+    <!-- http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#object -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#object"/>
+    
+
+
+    <!-- http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#operation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#operation"/>
+    
+
+
+    <!-- http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#opinion -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#opinion"/>
+    
+
+
+    <!-- http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#organic_development -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#organic_development"/>
+    
+
+
+    <!-- http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#organization -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#organization"/>
+    
+
+
+    <!-- http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#party -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#party"/>
+    
+
+
+    <!-- http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#pathos -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#pathos"/>
+    
+
+
+    <!-- http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#period -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#period"/>
+    
+
+
+    <!-- http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#pleasure -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#pleasure"/>
+    
+
+
+    <!-- http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#policy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#policy"/>
+    
+
+
+    <!-- http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#premise -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#premise"/>
+    
+
+
+    <!-- http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#price -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#price"/>
+    
+
+
+    <!-- http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#principle -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#principle"/>
+    
+
+
+    <!-- http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#priority -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#priority"/>
+    
+
+
+    <!-- http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#probability -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#probability"/>
+    
+
+
+    <!-- http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#procedure -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#procedure"/>
+    
+
+
+    <!-- http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#process -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#process"/>
+    
+
+
+    <!-- http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#product -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#product"/>
+    
+
+
+    <!-- http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#profile -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#profile"/>
+    
+
+
+    <!-- http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#profit -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#profit"/>
+    
+
+
+    <!-- http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#property -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#property"/>
+    
+
+
+    <!-- http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#proposition -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#proposition"/>
+    
+
+
+    <!-- http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#protocol -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#protocol"/>
+    
+
+
+    <!-- http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#rank -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#rank"/>
+    
+
+
+    <!-- http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#resolution -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#resolution"/>
+    
+
+
+    <!-- http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#resource -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#resource"/>
+    
+
+
+    <!-- http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#role -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#role"/>
+    
+
+
+    <!-- http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#routine -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#routine"/>
+    
+
+
+    <!-- http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#rule -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#rule"/>
+    
+
+
+    <!-- http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#sentence -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#sentence"/>
+    
+
+
+    <!-- http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#service -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#service"/>
+    
+
+
+    <!-- http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#solution -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#solution"/>
+    
+
+
+    <!-- http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#stat -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#stat"/>
+    
+
+
+    <!-- http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#state -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#state"/>
+    
+
+
+    <!-- http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#statement -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#statement"/>
+    
+
+
+    <!-- http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#status -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#status"/>
+    
+
+
+    <!-- http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#subject -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#subject"/>
+    
+
+
+    <!-- http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#tag -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#tag"/>
+    
+
+
+    <!-- http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#task -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#task"/>
+    
+
+
+    <!-- http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#technology -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#technology"/>
+    
+
+
+    <!-- http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#thread -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#thread"/>
+    
+
+
+    <!-- http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#time -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#time"/>
+    
+
+
+    <!-- http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#timeframe -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#timeframe"/>
+    
+
+
+    <!-- http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#trunk -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#trunk"/>
+    
+
+
+    <!-- http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#trust -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#trust"/>
+    
+
+
+    <!-- http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#upvote -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#upvote"/>
+    
+
+
+    <!-- http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#value -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#value"/>
+    
+
+
+    <!-- http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#verb -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#verb"/>
+    
+
+
+    <!-- http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#version -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#version"/>
+    
+
+
+    <!-- http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#vote -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#vote"/>
+    
+
+
+    <!-- http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#weight -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#weight"/>
+    
+
+
+    <!-- http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#wisdom -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#wisdom"/>
+    
+
+
+    <!-- http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#worth -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/manyx/ontologies/2017/7/organizm#worth"/>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+
